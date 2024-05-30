@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- <link rel="stylesheet" href="./assets/css/styles.css"> -->
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/artistimage1.jpg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Rashmi Hegde</h1>
+
+          <p class="title">Drawing Artist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:rashmihegde@gmail.com" class="contact-link">rashmihegde@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91 9345234508</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1998</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sirsi Uttarakannada</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievements</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Works</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>PhotoGraphy</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello! I'm Rashmi Hegde, an engineer by day and a passionate drawing artist by night. Blending my love for art and engineering,
+             I create intricate drawings that reflect my meticulous attention to detail and creative flair. From vibrant landscapes to detailed portraits, each piece tells a unique story. Welcome to my portfolio—I hope you find inspiration in my work!
+          </p>
+
+          
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Pencil Sketches</h4>
+
+                <p class="service-item-text">
+                  Detailed drawings with graphite, offering timeless artistic expression.</p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/oilicon.jpg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Oil painting</h4>
+
+                <p class="service-item-text">
+                  Rich colors and blendable textures created with pigments mixed in drying oil
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Portrait Sketching</h4>
+
+                <p class="service-item-text">
+                  
+               A portrait sketch captures the likeness of a person with lines and shading.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  Capturing moments in time through the lens of a camera,emotion, and essence of the world around us.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="achievements" data-page="achievements">
+
+        <header>
+          <h2 class="h2 article-title">Achievements</h2>
+        </header>
+
+        <dl class="golden-bullets">
+          <dt>Art Show Winner</dt>
+          <dd>Awarded first place in a community art exhibition for outstanding artwork.</dd>
+
+          <dt>Featured in Regional Newspaper</dt>
+          <dd>Artwork showcased in a local newspaper highlighting artistic talent.
+          </dd>
+
+          <dt>Artwork Sold in Online Marketplaces</dt>
+          <dd>Successfully sold original artworks and prints through online platforms like Etsy or Instagram.
+          </dd>
+
+          <dt>Award Winner in School Art Competitions</dt>
+          <dd> Actively participated in school art contests, winning multiple awards for creativity and skill.
+          </dd>
+
+          <dt>Social Media Recognition</dt>
+          <dd>Garnered a significant following on social media platforms like Instagram and Youtube for sharing artwork and tutorials.
+          </dd>
+
+          <dt>Participant in Community Art Projects</dt>
+          <dd>Collaborated with fellow artists on community-based art initiatives, beautifying public spaces with murals or installations.</dd>
+        </dl>
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="works" data-page="works">
+
+        <header>
+          <h2 class="h2 article-title">Works</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Oil Paintings</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Pencil Sketches</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Portrait Drawings</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Oil Paintings</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Pencil Sketches</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Portrait Drawings</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="oil paintings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/oil1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tiger</h3>
+
+                <p class="project-category">Oil Paintings</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="oil paintings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/oil2.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">KingFisher</h3>
+
+                <p class="project-category">Oil Paintings</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="oil paintings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/oil3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ganesh</h3>
+
+                <p class="project-category">Oil Paintings</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="oil paintings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/oil4.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Monk</h3>
+
+                <p class="project-category">Oil Paintings</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="oil paintings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/oil5.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Kathakali</h3>
+
+                <p class="project-category">Oil Paintings</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="oil paintings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/oil6.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Women</h3>
+
+                <p class="project-category">Oil Paintings</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="pencil sketches">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ps1.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Rakshit Shetty</h3>
+
+                <p class="project-category">Pencil Sketches</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="pencil sketches">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ps7.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mandala Art</h3>
+
+                <p class="project-category">Pencil Sketches</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="pencil sketches">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ps3.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Shivaji</h3>
+
+                <p class="project-category">Pencil Sketches</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="pencil sketches">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ps4.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ganesh</h3>
+
+                <p class="project-category">Pencil Sketches</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="pencil sketches">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ps5.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ganesh</h3>
+
+                <p class="project-category">Pencil Sketches</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="pencil sketches">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ps6.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Roaring Tiger</h3>
+
+                <p class="project-category">Pencil Sketches</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="portrait drawings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/po1.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hritik Roshan</h3>
+
+                <p class="project-category">Portrait Drawings</p>
+
+              </a>
+            </li>
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="portrait drawings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/po3.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Narendra Modi</h3>
+
+                <p class="project-category">Portrait Drawings</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="portrait drawings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/po4.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SRK</h3>
+
+                <p class="project-category">Portrait Drawings</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="portrait drawings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/po5.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mr.Bean</h3>
+
+                <p class="project-category">Portrait Drawings</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="portrait drawings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/po6.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SP Balasubhramanya</h3>
+
+                <p class="project-category">Portrait Drawings</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="portrait drawings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/po2.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Dulquer Salmaan </h3>
+
+                <p class="project-category">Portrait Drawings</p>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="photography" data-page="photography">
+
+        <header>
+          <h2 class="h2 article-title">PhotoGraphy</h2>
+        </header>
+        
+        
+         <section class="photography-posts">
+
+          <ul class="photography-posts-lists">
+
+            <li class="project-item  active" data-filter-item data-category="portrait drawings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p5.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Kamabala </h3>
+
+                
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="portrait drawings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p1.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Moon </h3>
+
+               
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="portrait drawings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p2.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Leaf</h3>
+
+                
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="portrait drawings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p3.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Misty Morning </h3>
+
+                
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="portrait drawings">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p4.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Serene Kodachadri </h3>
+
+
+              </a>
+            </li>
+
+          </ul>
+
+           
+          
+
+        </section> 
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7731.111572411697!2d74.82523592907947!3d14.33721628795229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbc0f782152ab49%3A0x28bb437846d69ec4!2sBhuvanagiri%2C%20Karnataka%20581322!5e0!3m2!1sen!2sin!4v1713873323510!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" id="email" class="form-input" placeholder="Email address" required data-form-input onkeyup="validateEmail()">
+              <div id="invalid-email">Invalid Email</div>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            
+            <button class="form-btn" type="submit" id="submitBtn" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
